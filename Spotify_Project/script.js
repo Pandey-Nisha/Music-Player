@@ -11,14 +11,14 @@ let songItem = Array.from(document.getElementsByClassName('songItem'));
 
 
 let songs = [
-    {songName: "Khariyat - Instrumental Music",      filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Jim Yosef Arrow",                    filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "Krishna Flute - Instrumental",                      filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Lokiverse ",                         filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Shape of You",               filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Rait Zara Si - Instrumental",        filePath: "songs/6.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Latesh Lo-Fi Music",                   filePath: "songs/7.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Soft - Romantic Music",              filePath: "songs/8.mp3", coverPath: "covers/8.jpg"},
+    {songName: "Khariyat - Instrumental Music",      filePath: "./songs/1.mp3", coverPath: "./covers/1.jpg"},
+    {songName: "Jim Yosef Arrow",                    filePath: "./songs/2.mp3", coverPath: "./covers/2.jpg"},
+    {songName: "Krishna Flute - Instrumental",                      filePath: "./songs/3.mp3", coverPath: "./covers/3.jpg"},
+    {songName: "Lokiverse ",                         filePath: "./songs/4.mp3", coverPath: "./covers/4.jpg"},
+    {songName: "Shape of You",               filePath: "./songs/5.mp3", coverPath: "./covers/5.jpg"},
+    {songName: "Rait Zara Si - Instrumental",        filePath: "./songs/6.mp3", coverPath: "./covers/6.jpg"},
+    {songName: "Latesh Lo-Fi Music",                   filePath: "./songs/7.mp3", coverPath: "./covers/7.jpg"},
+    {songName: "Soft - Romantic Music",              filePath: "./songs/8.mp3", coverPath: "./covers/8.jpg"},
 ]
 
 songItem.forEach((element,i) => {
